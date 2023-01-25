@@ -30,7 +30,7 @@ const Header = ({onCLickCart,cartItems}) => {
             <div className={styles.header_info}>
                 <ul className={styles.header_info_list}>
                     <li onClick={onCLickCart} className={styles.first__item}>
-                        <img src='/images/cart.svg' alt="Logo"/>
+                        <img src='images/cart.svg' alt="Logo"/>
                         <span>{sumInCart} uah.</span>
 
                     </li>
