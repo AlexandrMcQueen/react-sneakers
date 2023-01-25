@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: "Inter", sans-serif;
+}
+
+button, input {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  max-width: 1080px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content .content_info {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 36px;
+  justify-content: space-between;
+}
+.content .content_info h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+.content .content_info .loop {
+  border: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content .content_info .loop img {
+  position: absolute;
+  padding-left: 20px;
+}
+.content .content_info .loop input {
+  border: 1px solid #F3F3F3;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  padding: 15px 45px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #C4C4C4;
+  width: 200px;
+}
+
+.btn-remove-input {
+  width: 22px;
+  height: 22px;
+  right: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,17 @@
+.content_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.content_items .like {
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  border-radius: 7px;
+}/*# sourceMappingURL=CardsLists.module.css.map */

@@ -1,0 +1,14 @@
+.content_items {
+  display: flex;
+  gap: 35px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 45px;
+}
+.content_items .like {
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  border-radius: 7px;
+}
+
+/*# sourceMappingURL=CardsLists.module.css.map */

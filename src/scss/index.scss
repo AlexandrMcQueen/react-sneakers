@@ -1,0 +1,86 @@
+@import "reset";
+
+body{
+  background-color: #E5E5E5;
+  font-family: 'Inter', sans-serif;
+
+}
+
+button,input {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+
+  max-width: 1080px;
+  margin: 50px auto;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content{
+
+
+  .content_info{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 36px;
+    justify-content: space-between;
+
+
+
+    h1{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000;
+    }
+
+
+    .loop{
+      border: none;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      img {
+        position: absolute;
+        padding-left: 20px;
+
+      }
+
+      input {
+
+        border: 1px solid #F3F3F3;
+        border-radius: 20px;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+        padding: 15px 45px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        color: #C4C4C4;
+        width: 200px;
+        //position: relative;
+
+      }
+    }
+
+  }
+
+}
+
+.btn-remove-input {
+  width: 22px;
+  height: 22px;
+  right: 10px;
+
+}
