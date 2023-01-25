@@ -46,6 +46,7 @@ function App() {
     const addToCartItems = async (obj) => {
          const findId = cartItems.find((objCart) => Number(obj.id) === Number(objCart.parentId))
         try {
+
             if (findId) {
                 setCartItems((prev) => prev.filter((item) => Number(item.parentId) !== Number(obj.parentId)))
                 const {data} = await axios.delete(`https://63b802e94d97e82aa3cc643e.mockapi.io/api/v1/Items/1/Cart/${findId.parentId}` )
