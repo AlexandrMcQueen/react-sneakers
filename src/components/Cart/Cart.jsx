@@ -91,7 +91,7 @@ const Cart = ({onClickRemove,item = [],onRemove,opened}) => {
 
                             <button onClick={(obj) => addToBoughtItems(obj)}>
                                 Оформити замовлення
-                                <img src="/images/Strelka.svg" alt=""/>
+                                <img src="images/Strelka.svg" alt=""/>
                             </button>
 
 
@@ -105,13 +105,13 @@ const Cart = ({onClickRemove,item = [],onRemove,opened}) => {
                     <div className= {styles.rightSide}>
                         <div className= {styles.cart_main}>
                             <h3 className= {styles.cart_name}>Корзина</h3>
-                            <img onClick={onClickRemove} src="/images/remove-btn.svg" alt=""/>
+                            <img onClick={onClickRemove} src="images/remove-btn.svg" alt=""/>
 
                         </div>
 
                         <div className= {styles.centerCart}>
                             <div className='img'>
-                                <img width={120} height={120} src={isBoughtInCart ?"/images/EmptyCard.jpg" : '/images/ItemBougthSuccesfully.svg'} alt="Cart"/>
+                                <img width={120} height={120} src={isBoughtInCart ?"images/EmptyCard.jpg" : 'images/ItemBougthSuccesfully.svg'} alt="Cart"/>
                             </div>
 
                             <h3>{isBoughtInCart ? 'Корзина порожня' : 'Замовлення оформлено!'}</h3>
